@@ -4,59 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheng Jen Chen | Personal Page</title>
-    <meta name="description"
-        content="Personal portfolio and resume page for Cheng Jen Chen. Hello, here's who I am & what I do.">
+    <title>Cheng Jen Chen | Digital Portfolio</title>
     <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Modern bold typography typical of premium Wix creative templates -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="background-split">
-        <div class="bg-left"></div>
-        <div class="bg-right"></div>
+
+    <div class="site-wrapper">
+        <!-- Header / Navbar -->
+        <header class="header">
+            <div class="logo">CJC.</div>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="time-widget">
+                <span class="pulse"></span>
+                <span id="clock" class="clock">--:--:--</span>
+                <span class="tz">LOCAL</span>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <main class="main-content">
+
+            <!-- Big Typography Hero Section -->
+            <section class="hero-box block">
+                <h1 class="huge-text">CHENG<br>JEN<br>CHEN</h1>
+                <div class="hero-decoration"></div>
+            </section>
+
+            <!-- Right column blocks -->
+            <div class="side-blocks">
+
+                <!-- Statement block -->
+                <section class="info-box block">
+                    <h2 class="section-title">Hello.</h2>
+                    <p class="intro-text">
+                        I'm a visionary professional seamlessly blending design, functionality, and innovation.
+                        Welcome to my digital showcase. Let's create something brilliant.
+                    </p>
+                    <a href="#" class="btn btn-outline-light">Get in touch →</a>
+                </section>
+
+                <!-- Details block -->
+                <section class="details-box block">
+                    <div class="detail-item">
+                        <span class="label">Current Role</span>
+                        <span class="value">Creative / Developer</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Location</span>
+                        <span class="value">Taipei, Taiwan</span>
+                    </div>
+                    <div class="detail-item social-list">
+                        <a href="#">LinkedIn /</a>
+                        <a href="#">GitHub /</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </section>
+            </div>
+
+        </main>
     </div>
-
-    <main class="card">
-        <div class="card-left">
-            <div class="profile-circle">
-                <div class="circle-inner">CJC</div>
-            </div>
-            <h1 class="name">Cheng Jen Chen</h1>
-            <div class="divider"></div>
-            <p class="role">Professional Profile</p>
-
-            <div class="bottom-info">
-                <div class="time-container">
-                    <p>Current Time</p>
-                    <div id="clock" class="clock"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-right">
-            <h2 class="greeting">Hello</h2>
-            <p class="intro">Here's who I am & what I do</p>
-
-            <div class="buttons">
-                <a href="#" class="btn btn-primary">Resume</a>
-                <a href="#" class="btn btn-outline">Projects</a>
-            </div>
-
-            <p class="description">
-                I'm a passionate professional dedicated to creating meaningful and impactful projects.
-                With a keen eye for detail and a drive for excellence, I continuously strive to blend design and
-                functionality.
-                Welcome to my personal corner on the web. Let's create something brilliant together.
-            </p>
-
-            <div class="social-links">
-                <a href="#" class="social-icon">IN</a>
-                <a href="#" class="social-icon">GH</a>
-                <a href="#" class="social-icon">TW</a>
-            </div>
-        </div>
-    </main>
 
     <script src="./index.js"></script>
 </body>

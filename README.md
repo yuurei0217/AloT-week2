@@ -2,6 +2,8 @@
 
 A visually striking, brutalist-inspired single-page digital portfolio. This project is highly influenced by premium, typography-driven UI design templates used by modern creative professionals, featuring bold structures and vibrant accents.
 
+![Homepage Screenshot](./screenshot.png)
+
 ## Features
 
 * **Brutalist / Grid-Based Architecture:** The interface utilizes distinct bordered blocks, sharp lines, and unapologetic fullscreen framing to compartmentalize content.
